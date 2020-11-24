@@ -38,4 +38,8 @@ function moveToPrevSlide() {
     }
     
     slides[slidePosition].classList.add("carousel-item-visible");
+
 }
+
+setInterval(moveToNextSlide, 2000)
+
